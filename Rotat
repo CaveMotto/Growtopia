@@ -14,7 +14,7 @@ function GonWebhook(Motto)
     local script = [[
     $webHookUrl = "]]..WebhookUrl..[["
     $thumbnailObject = [PSCustomObject]@{
-    url = "https://cdn.discordapp.com/emojis/1016295109970645022.gif?size=80&quality=lossless"
+    url = "https://64.media.tumblr.com/ffad795ecaec4a6348d0d839362222e9/tumblr_nm1m2rWGhV1tcuj64o1_400.gif"
     }
     $color = Get-Random -Minimum 0 -Maximum 16777215
     $title = 'Motto - Rotation'
